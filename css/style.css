@@ -1,0 +1,874 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**header**/
+
+header{
+    background-color: #364037;
+    height: 5.25rem;
+    width: 100%;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 16.25rem;
+    padding-top: 1.5625rem;
+    list-style: none;
+}
+.navbar li a{
+    margin-left: .3125rem;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color:#FFFEFB
+}
+.logoImage{
+    position: absolute;
+    left: 7.5rem;
+    align-items: center;
+    height: 1.875rem;
+}
+.chevron{
+    width: 1.1875rem;
+    height: 1.1875rem;
+    margin-right: .9375rem;
+    margin-top: .375rem;
+}
+
+.login{
+    position: absolute;
+    right: 120px;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    text-decoration: none;
+    color:#FFFEFB
+}
+
+/**Home**/
+
+.sectionOne{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFEFB;
+    padding: 6.25rem;
+}
+.sectionOne h1{
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+}
+.sectionOne h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74;
+}
+.sectionOne p{
+    width: 37.75rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem;
+}
+.sectionOne button{
+    background-color: #6D8B74;
+    padding: .75rem 2.1875rem;
+    margin: 4rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sectionOne button a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: .125rem;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.sectionTwo{
+    background-color: #EFEAD8;
+    height: 46.875rem;
+    width: 100%;
+}
+.imagesSectionTwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionTwo img{
+    width: 357px;
+    margin-top: 5.625rem;
+}
+.textSectionTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionTwo h2{
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #4B594D;
+}
+.sectionTwo h2 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #6D8B74;
+}
+.sectionTwo p{
+    width: 61.375rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: .0625rem;
+    color: #4B594D;
+}
+.sectionThree{
+    background-color: #FFFEFB;
+    padding-left: 7.75rem;
+    padding-right: 7.75rem;
+}
+.solutionsHome {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #4B594D;
+}
+.descriptionSectionThree{
+    display: flex;
+    justify-content: space-around;
+}
+.sectionThree p{
+    width: 27.125rem;
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: .0625rem;
+    line-height: 3.125rem;
+    color: #4B594D;
+}
+.plantPhone{
+    margin-bottom: 6.5625rem;
+    width: 28.5625rem;
+    height: 28.5625rem;
+    border-radius: .9375rem;
+    box-shadow: 0rem .25rem .25rem 0rem #afafaf
+}
+.sectionFour{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EFEAD8;
+    text-align: center;
+}
+.leafOne{
+    width: 22.5rem;
+    height: 12.5rem;
+}
+.leafTwo{
+    width: 22.5rem;
+    height: 12.5rem;
+}
+.sectionFour h2{
+    margin-top: 3.125rem;
+    margin-bottom: 2.9375rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+}
+.sectionFour button{
+    background-color: #6D8B74;
+    padding: .9375rem 1.875rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem .25rem .25rem 0rem #afafaf;
+    margin-bottom: 3.125rem;
+
+}
+.sectionFour button a {
+    text-decoration: none;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+/**Sign Up**/
+
+.signup{
+    height: 8.75rem;
+    text-align: center;
+}
+.signup img{
+    width: 17.8125rem;
+    padding-top: 2.5rem;
+}
+.form{
+    height: 46.875rem;
+    background-color: #364037;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-color: #364037;
+}
+.form h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 3.75rem;
+    color: #FFFEFB;
+    margin-bottom: 3.75rem;
+}
+.form p{
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    color: #FFFEFB;
+}
+.form input{
+    margin-bottom: 1.25rem;
+    color: #666666;
+    border: none;
+    text-indent: .625rem;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: .625rem;
+}
+footer p{
+    color: FFFEFB;
+    font-family: 'Merriweather', serif;
+}
+.submitSignUp{
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
+}
+.footerSignup{
+    background-color: #364037;
+}
+
+/**Guides**/
+
+.sectionGuideOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFEFB;
+    text-align: center;
+}
+.sectionGuideOne h1{
+    margin-top: 6.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+}
+.sectionGuideOne h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74;
+}
+.sectionGuideOne p{    
+    width: 685px;
+    margin-top: 3.6875rem;
+    margin-bottom: 4.875rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem;
+}
+.sectionGuideTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7.5rem;
+}
+.card{
+    width: 22.5rem;
+    height: 337px;
+    background-color: #FCECD5;
+    border-radius: 3.125rem 3.125rem 0rem 0rem;
+    margin-bottom: 12.5rem
+}
+.card img{
+    margin-left: 2.25rem;
+    width: 80%;
+    margin-top: 2.8125rem;
+    border-radius: 3.125rem 3.125rem 0rem 0rem;
+}
+.card-content{
+    height: 8.5rem;
+    width: 22.5rem;
+    background-color: #6D8B74;
+    border-radius: 0rem 0rem 3.125rem 3.125rem;
+    text-align: center;
+    box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.card-content p {
+    padding: .8125rem 3.375rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: .875rem;
+    color: #EFEAD8;
+}
+.sectionGuideTwo h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #EFEAD8;
+    padding-top: .8125rem;
+}
+
+.sectionGuideThree{
+    display: flex;
+    justify-content: space-between;
+    background-color: #364037;
+    padding-left: 7.75rem;
+}
+.sectionGuideThree h2{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #FFFEFB;
+    padding-top: 7.8125rem;
+}
+.sectionGuideThree button{
+    margin-top: 3.125rem;
+    margin-bottom: 5.9375rem;
+    background-color: #EFEAD8;
+    padding: .9375rem 2.1875rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.sectionGuideThree button a {
+    text-decoration: none;
+    color: #6D8B74;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.laptop-cards {
+    margin-top: 3.8125rem;
+    margin-right: 7.5rem;
+    width: 21.875rem;
+    border-radius: .9375rem;
+    box-shadow: 0rem .25rem .25rem 0rem #1f1f1f
+}
+
+/**Community**/
+
+.sectionCommOne{
+    margin-top: 1.875rem;
+    padding-left: 13.5rem;
+    background: #FFFEFB;
+}
+.welcomComm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.sectionCommOne h1{
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+    text-align: left;
+}
+.sectionCommOne h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74;
+    text-align: left;
+}
+.sectionCommOne img{
+    height: 100%;
+    width: 32.0625rem;
+}
+.search-bar{
+    text-align: center;
+}
+.search-bar img{
+    width: 1.625rem;
+}
+.search-bar input{
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 5px solid #6D8B74;
+    text-indent: 2rem;
+    width: 32rem;
+    height: 4.4375rem;
+    border-radius: 2.3rem;
+}
+.sectionCommTwo{
+    margin-top: 8rem;
+    background: #FFFEFB;
+    padding-left: 7.75rem;
+}
+.blog-card img{
+    width: 21.875rem;
+}
+.blog-card-content{
+    color: #364037;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+}
+.blog-card-content img{
+    width: 4.5rem;
+}
+.sectionCommThree{
+    height: 59.5rem;
+    background: #EFEAD8;
+    margin-top: 6.8125rem;
+}
+.sectionCommThree h2{
+    padding-top: 7.25rem;
+    padding-bottom: 6.375rem;
+    color: #364037;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+}
+.sectionCommThree span{
+    color: #6D8B74;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+}
+.webinar-card{
+    width: 75.25rem;
+    height: 8.75rem;
+    margin-left: 7.5rem;
+    margin-bottom: 3.625rem;
+    background-color: #364037;
+    border-radius: .625rem;
+    box-shadow: 0rem .25rem .25rem 0rem #1f1f1f;
+}
+.webinar-card img{
+    margin-left: 1.75rem;
+    margin-top: 1.75rem;
+    width: 5.3125rem;
+    border-radius: .5625rem;
+}
+.webinar-card h3{
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+    display: inline;
+    margin-left: 1.75rem;
+}
+.webinar-card p{
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    display: inline;
+    margin-left: 1.75rem;
+}
+.sectionCommFour{
+    height: 37.8125rem;
+    background: #FFFEFB;
+}
+.sectionCommFour h2{
+    color: #4B594D;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    letter-spacing: .1875rem;
+    text-align: center;
+    padding-top: 5.625rem;
+}
+.sectionCommFour span{
+    color: #6D8B74;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    letter-spacing: .1875rem;
+}
+.sectionCommFour input{
+    margin-top: 5.375rem;
+    border: .3125rem solid #6D8B74;
+    height: 4.4375rem;
+    border-radius: 2.875rem;
+}
+.email-input{
+    width: 39.5rem;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-indent: 1.875rem;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+}
+.send-input{
+    width: 148px;
+    background-color: #6D8B74;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-align: center;
+}
+
+/**Solutions**/
+
+.sectionSolOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EFEAD8;
+    text-align: center;
+}
+.sectionSolOne h1{
+    padding-top: 6.25rem;
+    margin-bottom: 1.4375rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+}
+.sectionSolOne h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74;
+}
+.sectionSolOne p{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem;
+}
+.sectionSolOne button{
+    background-color: #6D8B74;
+    padding: .75rem 2.1875rem;
+    margin: 4rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.sectionSolOne button a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: .125rem;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.sectionSolTwo{
+    display: flex;
+    justify-content: space-around;
+    height: 38.0625rem;
+    background-color: #FFFEFB;
+}
+.sectionSolTwo h2{
+    text-align: left;
+    padding-top: 6.5625rem;
+    padding-left: 7.8125rem;
+    color: #4B594D;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1875rem;
+}
+.sectionSolTwo p{
+    width: 32.75rem;
+    padding-top: 3.125rem;
+    color: #4B594D;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+}
+.sectionSolTwo img{
+    height: 29.25rem;
+    padding-top: 6.5625rem;
+}
+.sectionSolThree{
+    height: 66.5rem;
+    background-color: #EFEAD8;
+}
+.cardSolNumber{
+    width: 13.1875rem;
+    height: 13.1875rem;
+    position: absolute;
+    left: -100px;
+    background-color: #364037;
+    border-radius: 6.5938rem;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .3rem;
+    text-align: center;
+    text-indent: 0;
+    padding-top: 5.7813rem
+}
+.cardSolOne{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 25rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem;
+    padding-top: 6.8125rem;
+}
+.cardSolTwo{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 18.1875rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem;
+}
+.cardSolThree{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 18.1875rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem;
+}
+.cardSolContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 68.625rem;
+    height: 100%;
+    border-radius: .625rem;
+    background-color: #6D8B74;
+}
+.cardSolContent h3{
+    padding-bottom: 1.25rem;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    padding-left: 9.375rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+}
+.cardSolContent p{
+    padding-left: 9.375rem;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .0625rem;
+}
+.sectionSolFour{
+    width: 100%;
+    height: 43.125rem;
+    background-image: url("../assets/img/ipad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/**About Us**/
+
+.sectionAboutOne{
+    margin-top: 1.625rem;
+    height: 39.375rem;
+    background-image: url("../assets/img/backgoundaboutus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+.sectionAboutOne h1{
+    padding-top: 6.25rem;
+    padding-right: 7.5rem;
+    margin-bottom: 1.4375rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+    text-align: right;
+    text-indent: 0;
+}
+.sectionAboutOne h1 span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74;
+}
+.sectionAboutTwo{
+    padding-top: 9.375rem;
+    padding-left: 7.5rem;
+    background-color: #364037;
+}
+.aboutPlantLife h2{
+    color: #EFEAD8;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 2.1875rem;
+    letter-spacing: .1875rem;
+}
+.aboutPlantLife p{
+    padding-top: 3.75rem;
+    width: 28.75rem;
+    color: #EFEAD8;
+    font-family:'Merriweather', serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.1875rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+}
+.aboutUs h2{
+    text-align: right;
+    color: #EFEAD8;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 2.1875rem;
+    letter-spacing: .1875rem;
+}
+.aboutUs p{
+    text-align: right;
+    padding-top: 3.75rem;
+    width: 37.8125rem;
+    color: #EFEAD8;
+    font-family:'Merriweather', serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.1875rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+}
+.sectionAboutTwo img{
+    height: 25.125rem;
+}
+.aboutImages{
+    width: .875rem;
+}
+
+/**Footer**/
+
+footer{
+    background-color: #FFFEFB;
+    padding-top: 3.4375rem;
+    padding-left: 7.5rem;
+}
+.pagesFooter{
+    display: flex;
+    justify-content: center;
+}
+.solutions-footer{
+    list-style: none;
+    line-height: 1.875rem;
+    margin-right: 3.125rem;
+}
+.guides-footer{
+    list-style: none;
+    line-height: 1.875rem;
+    margin-right: 3.125rem;
+}
+.community-footer{
+    list-style: none;
+    line-height: 1.875rem;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color:#364037
+}
+footer a .logo-footer{
+    width: 12.8125rem;
+}
+footer p{
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    color:#364037
+}
+.social-media{
+    position: absolute;
+    right: 7.5rem;
+    margin-right: 1.25rem;
+    padding-bottom: 3.125rem;
+}
+
+.social-media img{
+    width: 2.5625rem;
+}
+
+.ig{
+    margin-right: 1.25rem;
+}
