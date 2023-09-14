@@ -756,6 +756,7 @@ footer p{
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: .1875rem;
+    line-height: 3.125rem;
     font-size: 3.75rem;
     color: #4B594D;
     text-align: right;
@@ -769,9 +770,21 @@ footer p{
     color: #6D8B74;
 }
 .sectionAboutTwo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 50%);
+    grid-template-rows: repeat(2 50%);
+    grid-template-areas:
+    "aboutPlantLife aboutPlantLifeImage"
+    "aboutImages aboutUs"
+    ;
     padding-top: 9.375rem;
     padding-left: 7.5rem;
+    padding-right: 7.5rem;
     background-color: #364037;
+}
+.aboutPlantLife{
+    margin-bottom: 7.5rem;
 }
 .aboutPlantLife h2{
     color: #EFEAD8;
@@ -793,14 +806,20 @@ footer p{
     letter-spacing: .0625rem;
     text-indent: 0;
 }
+.aboutPlantLifeImage{
+    margin-bottom: 3.125rem;
+}
+
 .aboutUs h2{
-    text-align: right;
+    text-align: center;
     color: #EFEAD8;
     font-family: 'Lato', sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 2.1875rem;
     letter-spacing: .1875rem;
+    text-indent: 0;
+
 }
 .aboutUs p{
     text-align: right;
@@ -814,12 +833,16 @@ footer p{
     line-height: 2.1875rem;
     letter-spacing: .0625rem;
     text-indent: 0;
+    margin-bottom: 7.5rem;
 }
 .sectionAboutTwo img{
     height: 25.125rem;
 }
 .aboutImages{
     width: .875rem;
+}
+.lilyImage{
+    margin-bottom: 3.125rem;
 }
 
 /**Footer**/
