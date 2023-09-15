@@ -99,12 +99,12 @@ header{
 }
 .sectionTwo{
     background-color: #EFEAD8;
-    height: 46.875rem;
     width: 100%;
 }
 .imagesSectionTwo{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .sectionTwo img{
     width: 357px;
@@ -131,7 +131,6 @@ header{
     color: #6D8B74;
 }
 .sectionTwo p{
-    width: 61.375rem;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-weight: 300;
@@ -139,6 +138,9 @@ header{
     line-height: 1.875rem;
     letter-spacing: .0625rem;
     color: #4B594D;
+    padding-left: 13.625rem;
+    padding-right: 13.625rem;
+    margin-bottom: 3.4375rem;
 }
 .sectionThree{
     background-color: #FFFEFB;
@@ -159,6 +161,7 @@ header{
 .descriptionSectionThree{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .sectionThree p{
     width: 27.125rem;
@@ -427,14 +430,16 @@ footer p{
 .search-bar{
     display: flex;
     justify-content: center;
-    position: relative;
     text-align: center;
+}
+.search-bar form{
+    position: relative;
 }
 .search-bar img{
     width: 1.25rem;
     height: 1.25rem;
     position: absolute;
-    left: 31.25rem;
+    left: 35px;
     top: 1.5625rem;
 }
 .search-bar input{
@@ -659,7 +664,7 @@ footer p{
 .sectionSolTwo{
     display: flex;
     justify-content: space-around;
-    height: 38.0625rem;
+    flex-wrap: wrap;
     background-color: #FFFEFB;
 }
 .sectionSolTwo h2{
@@ -687,6 +692,7 @@ footer p{
 .sectionSolTwo img{
     height: 29.25rem;
     padding-top: 6.5625rem;
+    margin-bottom: 6.8125rem;
 }
 .sectionSolThree{
     height: 66.5rem;
@@ -758,6 +764,7 @@ footer p{
 }
 .cardSolContent p{
     padding-left: 9.375rem;
+    padding-right: .9375rem;
     color: #FFFEFB;
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -852,7 +859,6 @@ footer p{
     font-family: 'Lato', sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
-    line-height: 2.1875rem;
     letter-spacing: .1875rem;
     text-indent: 0;
 
@@ -873,6 +879,8 @@ footer p{
 }
 .sectionAboutTwo img{
     height: 25.125rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .aboutImages{
     width: .875rem;
