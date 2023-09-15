@@ -393,12 +393,13 @@ footer p{
 
 .sectionCommOne{
     margin-top: 1.875rem;
-    padding-left: 13.5rem;
     background: #FFFEFB;
 }
 .welcomComm{
     display: flex;
     justify-content: space-between;
+    padding-right: 11.25rem;
+    padding-left: 13.5rem;
     align-items: center;
     margin-bottom: 2.5rem;
 }
@@ -424,12 +425,20 @@ footer p{
     width: 32.0625rem;
 }
 .search-bar{
+    display: flex;
+    justify-content: center;
+    position: relative;
     text-align: center;
 }
 .search-bar img{
-    width: 1.625rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    left: 31.25rem;
+    top: 1.5625rem;
 }
 .search-bar input{
+    padding-left: 1.875rem;
     color: #666666;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -441,14 +450,28 @@ footer p{
     border-radius: 2.3rem;
 }
 .sectionCommTwo{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 21.25rem 21.25rem;
+    grid-template-areas:
+    "blog-card1 blog-card2 blog-card3"
+    "blog-card4 blog-card5 blog-card6"
+    ;
+    column-gap: 4.375rem;
+    row-gap: 7.5rem;
+    justify-content: center;
     margin-top: 8rem;
     background: #FFFEFB;
-    padding-left: 7.75rem;
+    padding-left: 7.5rem;    
+    padding-right: 7.5rem;
+
 }
 .blog-card img{
     width: 21.875rem;
 }
 .blog-card-content{
+    display: flex;
+    align-items: center;
     color: #364037;
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
@@ -456,8 +479,10 @@ footer p{
     line-height: 1.75rem;
     letter-spacing: .0625rem;
     text-indent: 0;
+    margin-top: 1.5625rem;
 }
 .blog-card-content img{
+    padding-right: 1.25rem;
     width: 4.5rem;
 }
 .sectionCommThree{
@@ -485,9 +510,14 @@ footer p{
     letter-spacing: .1rem;
 }
 .webinar-card{
-    width: 75.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3.75rem;
     height: 8.75rem;
     margin-left: 7.5rem;
+    margin-right: 7.5rem;
     margin-bottom: 3.625rem;
     background-color: #364037;
     border-radius: .625rem;
@@ -495,8 +525,8 @@ footer p{
 }
 .webinar-card img{
     margin-left: 1.75rem;
-    margin-top: 1.75rem;
     width: 5.3125rem;
+    height: 5.3125rem;
     border-radius: .5625rem;
 }
 .webinar-card h3{
@@ -507,7 +537,6 @@ footer p{
     line-height: 1.5625rem;
     letter-spacing: .1rem;
     display: inline;
-    margin-left: 1.75rem;
 }
 .webinar-card p{
     color: #FFFEFB;
@@ -517,10 +546,12 @@ footer p{
     font-weight: 700;
     line-height: 1.5625rem;
     letter-spacing: .075rem;
-    display: inline;
-    margin-left: 1.75rem;
+    padding: 5px;
 }
 .sectionCommFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 37.8125rem;
     background: #FFFEFB;
 }
@@ -549,7 +580,9 @@ footer p{
     border-radius: 2.875rem;
 }
 .email-input{
+    position: relative;
     width: 39.5rem;
+    margin-left: 150px;
     color: #666;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
@@ -560,7 +593,10 @@ footer p{
     box-shadow: 0rem .25rem .25rem 0rem #898989;
 }
 .send-input{
-    width: 148px;
+    position: relative;
+    right: 150px;
+    width: 9.25rem;
+    border: .3125rem solid #6D8B74;
     background-color: #6D8B74;
     box-shadow: 0rem .25rem .25rem 0rem #898989;
     color: #FFFEFB;
