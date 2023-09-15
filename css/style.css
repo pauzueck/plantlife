@@ -27,6 +27,9 @@ header{
     font-family: 'Lato', sans-serif;
     color:#FFFEFB
 }
+.navbar li a:hover{
+    color: #6D8B74;
+}
 .logoImage{
     position: absolute;
     left: 7.5rem;
@@ -88,6 +91,9 @@ header{
     border: none;
     border-radius: 3.75rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sectionOne button:hover{
+    background-color: #4B594D;
 }
 .sectionOne button a {
     text-decoration: none;
@@ -213,6 +219,9 @@ header{
     box-shadow: 0rem .25rem .25rem 0rem #afafaf;
     margin-bottom: 3.125rem;
 
+}
+.sectionFour button:hover{
+    background-color: #4B594D;
 }
 .sectionFour button a {
     text-decoration: none;
@@ -454,6 +463,9 @@ footer p{
     height: 4.4375rem;
     border-radius: 2.3rem;
 }
+.search-bar input:focus{
+    border: 5px solid #4B594D;
+}
 .sectionCommTwo{
     display: grid;
     grid-template-columns: repeat(3 1fr);
@@ -652,6 +664,9 @@ footer p{
     border: none;
     border-radius: 3.75rem;
     box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.sectionSolOne button:hover{
+    background-color: #4B594D;
 }
 .sectionSolOne button a {
     text-decoration: none;
@@ -920,6 +935,11 @@ footer a{
     font-size: 1.25rem;
     color:#364037
 }
+footer a:hover{
+    color: #6D8B74;
+    font-weight: 900;
+}
+
 footer a .logo-footer{
     width: 12.8125rem;
 }
