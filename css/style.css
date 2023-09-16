@@ -10,7 +10,6 @@ header{
     background-color: #364037;
     height: 5.25rem;
     width: 100%;
-    top: 0;
 }
 .navbar{
     display: flex;
@@ -29,6 +28,12 @@ header{
 }
 .navbar li a:hover{
     color: #6D8B74;
+}
+.hamburger-icon{
+    display: none;
+}
+.logo-responsive{
+    display: none;
 }
 .logoImage{
     position: absolute;
@@ -50,6 +55,37 @@ header{
     text-align: right;
     text-decoration: none;
     color:#FFFEFB
+}
+
+
+@media(max-width: 768px){
+    header{
+    display: flex;
+    justify-content: flex-end;
+    height: 4.375rem;
+    width: 100%;
+    }
+    .navbar{
+        align-items: center;
+        margin-right: 5rem;
+        padding-top: 1.125rem;
+    }
+    .navbar li a{
+        display: none;
+    }
+    .logo-header{
+        display: block;
+    }
+    .login{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    .hamburger-icon img{
+        width: 2.25rem;
+    }
+    }
 }
 
 /**Home**/
@@ -404,7 +440,6 @@ footer p{
 /**Community**/
 
 .sectionCommOne{
-    margin-top: 1.875rem;
     background: #FFFEFB;
 }
 .welcomComm{
@@ -624,6 +659,123 @@ footer p{
     letter-spacing: .075rem;
     text-align: center;
 }
+
+
+@media(max-width: 768px){
+    .welcomComm{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 3.125rem;
+        padding-left: 3.125rem;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+    .sectionCommOne{
+        margin-top: 1.25rem;
+    }
+    .sectionCommOne h1{
+        margin-top: 3.4375rem;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem;
+    }
+    .sectionCommOne h1 span{
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem;
+    }
+    .sectionCommOne img{
+        height: 100%;
+        width: 20.875rem;
+    }
+    .search-bar input{
+        font-weight: 400;
+        font-size: 1.125rem;
+        padding-left: 20px;
+        font-size: 1.25rem;
+        border: 4px solid #6D8B74;
+        text-indent: 2rem;
+        width: 25.3125rem;
+        height: 3.125rem;
+        border-radius: 2.3rem;
+    }
+    .search-bar img{
+        width: .9375rem;
+        height: .9375rem;
+        position: absolute;
+        left: 30px;
+        top: 18px;
+    }
+    .sectionCommTwo {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(4 5rem);
+    grid-template-areas:
+    "blog-card1 blog-card2"
+    "blog-card3 blog-card4"
+    "blog-card5 blog-card6"
+    ;
+    column-gap: 4.0625rem;
+    row-gap: 0;
+    padding-left: 3.125rem;    
+    padding-right: 3.125rem;
+}
+.blog-card img{
+    width: 18.125rem;
+}
+.blog-card-content{
+    display: flex;
+    justify-content: center;
+}
+.blog-card-content img{
+    width: 3.75rem;
+}
+.blog-card-content p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: .0437rem;
+}
+.webinar-card{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.75rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.25rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+.webinar-card img{
+    margin-left: 1.75rem;
+    margin-right: .9375rem;
+    width: 4.4375rem;
+    height: 4.4375rem;
+    border-radius: .5625rem;
+}
+.webinar-card h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+    display: inline;
+}
+.webinar-card p{
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem; /* 178.571% */
+    letter-spacing: .0437rem;
+    padding: 5px;
+}
+}
+
 
 /**Solutions**/
 
