@@ -86,7 +86,6 @@ header{
         width: 2.25rem;
     }
     }
-}
 
 /**Home**/
 
@@ -214,6 +213,7 @@ header{
     letter-spacing: .0625rem;
     line-height: 3.125rem;
     color: #4B594D;
+    padding-bottom: 5rem;
 }
 .plantPhone{
     margin-bottom: 6.5625rem;
@@ -538,13 +538,11 @@ footer p{
     width: 4.5rem;
 }
 .sectionCommThree{
-    height: 59.5rem;
     background: #EFEAD8;
     margin-top: 6.8125rem;
 }
 .sectionCommThree h2{
     padding-top: 7.25rem;
-    padding-bottom: 6.375rem;
     color: #364037;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -561,6 +559,9 @@ footer p{
     line-height: 1.5625rem;
     letter-spacing: .1rem;
 }
+.webinar{
+    padding-bottom: 6.25rem;
+}
 .webinar-card{
     display: flex;
     flex-direction: row;
@@ -570,7 +571,7 @@ footer p{
     height: 8.75rem;
     margin-left: 7.5rem;
     margin-right: 7.5rem;
-    margin-bottom: 3.625rem;
+    margin-top: 3.625rem;
     background-color: #364037;
     border-radius: .625rem;
     box-shadow: 0rem .25rem .25rem 0rem #1f1f1f;
@@ -604,10 +605,10 @@ footer p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 37.8125rem;
     background: #FFFEFB;
 }
 .sectionCommFour h2{
+    padding-top: 5.625rem;
     color: #4B594D;
     font-family: 'Lato', sans-serif;
     font-size: 3.75rem;
@@ -630,11 +631,10 @@ footer p{
     border: .3125rem solid #6D8B74;
     height: 4.4375rem;
     border-radius: 2.875rem;
+    margin-bottom: 6.25rem;
 }
 .email-input{
-    position: relative;
     width: 39.5rem;
-    margin-left: 150px;
     color: #666;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
@@ -644,9 +644,12 @@ footer p{
     text-indent: 1.875rem;
     box-shadow: 0rem .25rem .25rem 0rem #898989;
 }
-.send-input{
+.sectionCommFour form{
     position: relative;
-    right: 150px;
+}
+.send-input{
+    position: absolute;
+    right: 5px;
     width: 9.25rem;
     border: .3125rem solid #6D8B74;
     background-color: #6D8B74;
@@ -710,10 +713,10 @@ footer p{
         left: 30px;
         top: 18px;
     }
-    .sectionCommTwo {
+    .sectionCommTwo{
     display: grid;
     grid-template-columns: repeat(2 1fr);
-    grid-template-rows: repeat(4 5rem);
+    grid-template-rows: repeat(3, 22.0625rem);
     grid-template-areas:
     "blog-card1 blog-card2"
     "blog-card3 blog-card4"
@@ -740,6 +743,12 @@ footer p{
     font-weight: 700;
     line-height: 1.25rem;
     letter-spacing: .0437rem;
+}
+.sectionCommThree{
+    margin-top: 3.125rem;
+}
+.webinar{
+    padding-bottom: 3.125rem;
 }
 .webinar-card{
     display: flex;
@@ -770,11 +779,246 @@ footer p{
     font-size: .875rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.5625rem; /* 178.571% */
+    line-height: 1.5625rem;
     letter-spacing: .0437rem;
     padding: 5px;
 }
+.sectionCommFour h2{
+    margin-top: 3.4375rem;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: .1437rem;
+    padding-top: 3.125rem;
 }
+.sectionCommFour h2 span{
+        margin-top: 3.4375rem;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem;
+}
+.sectionCommFour input{
+    margin-top: 4.375rem;
+    border: 4px solid #6D8B74;
+    height: 3.375rem;
+    border-radius: 2.875rem;
+    margin-bottom: 3.125rem;
+}
+.email-input{
+    width: 30rem;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-indent: 1.875rem;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+}
+.send-input{
+    position: absolute;
+    right: 2px;
+    width: 7.5rem;
+    border: none;
+    background-color: #6D8B74;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-align: center;
+}
+}
+
+@media(max-width: 320px){
+    .welcomComm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 1.625rem;
+        padding-left: 1.625rem;
+        margin-bottom: 1.875rem;
+    }
+    .sectionCommOne{
+        margin-top: 1.25rem;
+    }
+    .sectionCommOne h1{
+        margin-top: 1.875rem;
+        margin-bottom: .125rem;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; 
+        letter-spacing: .0875rem;
+    }
+    .sectionCommOne h1 span{
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem; 
+        letter-spacing: .0875rem;
+    }
+    .sectionCommOne img{
+        height: 100%;
+        width: 16.875rem;
+    }
+    .search-bar input{
+        font-weight: 400;
+        font-size: 1rem;
+        padding-left: 20px;
+        font-size: .875rem;
+        border: 3px solid #6D8B74;
+        text-indent: 1rem;
+        width: 15.5rem;
+        height: 2.3125rem;
+        border-radius: 2rem;
+    }
+    .search-bar img{
+        width: .75rem;
+        height: .75rem;
+        position: absolute;
+        left: 20px;
+        top: 12px;
+    }
+    .sectionCommTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 19.0625rem);
+    grid-template-areas:
+    "blog-card1" 
+    "blog-card2"
+    "blog-card3" 
+    "blog-card4"
+    "blog-card5" 
+    "blog-card6"
+    ;
+    row-gap: 0;
+    margin-top: 3.125rem;
+    padding-left: 1.25rem;    
+    padding-right: 1.25rem;
+}
+.blog-card img{
+    width: 16.875rem;
+}
+.blog-card-content{
+    margin-top: .9375rem;
+    display: flex;
+    justify-content: center;
+}
+.blog-card-content img{
+    width: 3.4375rem;
+}
+.blog-card-content p{
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem; 
+    letter-spacing: .0437rem;
+}
+
+.sectionCommThree h2{
+    padding-top: 4.375rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.875rem; 
+    letter-spacing: .0875rem;
+}
+.webinar{
+    margin-top: .625rem;
+    padding-bottom: 2.5rem;
+}
+.webinar-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    height: 17.0625rem;
+    margin-left: 1.5625rem;
+    margin-right: 1.5625rem;
+    margin-bottom: 2.5rem;
+}
+.webinar-card img{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: .5625rem;
+}
+.webinar-card h3{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem;
+    display: block;
+}
+.webinar-card p{
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .0437rem;
+    padding: 5px;
+}
+.sectionCommFour h2{
+    margin-top: 1.25rem;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.375rem;
+    letter-spacing: .0875rem;
+}
+.sectionCommFour h2 span{
+    margin-top: 1.25rem;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.375rem;
+    letter-spacing: .0875rem;
+}
+.sectionCommFour input{
+    margin-top: 2.8125rem;
+    border: 3px solid #6D8B74;
+    height: 2.3125rem;
+    border-radius: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+.email-input{
+    width: 15.5rem;
+    margin-left: 0;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    letter-spacing: .05rem;
+    text-indent: 1.125rem;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+}
+.send-input{
+    position: absolute;
+    right: 1px;
+    width: 4.75rem;
+    border: none;
+    background-color: #6D8B74;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+}
+
 
 
 /**Solutions**/
@@ -951,7 +1195,6 @@ footer p{
 /**About Us**/
 
 .sectionAboutOne{
-    margin-top: 1.625rem;
     height: 39.375rem;
     background-image: url("../assets/img/backgoundaboutus.jpg");
     background-size: cover;
@@ -1056,6 +1299,115 @@ footer p{
     margin-bottom: 3.125rem;
 }
 
+
+@media(max-width: 768px){
+    .sectionAboutOne{
+        height: 31.25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        box-sizing: border-box;
+    }
+    .sectionAboutOne h1{
+        padding-right: 3.125rem;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3.125rem;
+        letter-spacing: .1437rem;
+    }
+    .sectionAboutOne h1 span{
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 3.125rem;
+        letter-spacing: .1437rem;
+    }
+    .sectionAboutTwo{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 21.875rem 30.875rem 61.25rem 23.5rem;
+        grid-template-areas:
+        "aboutPlantLife" 
+        "aboutPlantLifeImage"
+        "aboutUs"
+        "aboutImages"
+        ;
+        padding-top: 5rem;
+        justify-content: center;
+    }
+    .aboutPlantLife{
+        grid-area: aboutPlantLife;
+    }
+    .aboutPlantLifeImage{
+        grid-area: aboutPlantLifeImage;
+    }
+    .aboutUs{
+        grid-area: aboutUs;
+    }
+    .aboutImages{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        grid-area: aboutImages;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .aboutPlantLife h2{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .15rem;
+        text-align: center;
+    }
+    .aboutPlantLife p{
+        padding-top: 3.75rem;
+        width: 40.25rem;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 2.1875rem; 
+        letter-spacing: .0625rem;
+    }
+    .aboutPlantLifeImage{
+        margin-bottom: 3.125rem;
+        margin-top: 1.25rem;
+    }
+    .aboutUs h2{
+        text-align: center;
+        font-size: 3.75rem;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        text-indent: 0;
+    }
+    .aboutUs p{
+        text-align: center;
+        padding-top: 3.75rem;
+        width: 37.8125rem;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .0625rem;
+        text-indent: 0;
+        margin-bottom: 7.5rem;
+    }
+    .sectionAboutTwo img{
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .lilyImage{
+        margin-bottom: 3.125rem;
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .plantAbout{
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+}
+
 /**Footer**/
 
 footer{
@@ -1091,7 +1443,6 @@ footer a:hover{
     color: #6D8B74;
     font-weight: 900;
 }
-
 footer a .logo-footer{
     width: 12.8125rem;
 }
@@ -1102,9 +1453,9 @@ footer p{
     color:#364037
 }
 .social-media{
-    position: absolute;
-    right: 7.5rem;
-    margin-right: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7.5rem;
     padding-bottom: 3.125rem;
 }
 
@@ -1114,4 +1465,96 @@ footer p{
 
 .ig{
     margin-right: 1.25rem;
+}
+
+
+@media(max-width: 768px){
+    footer{
+        padding-top: 6.25rem;
+        padding-left: 1.5625rem;
+    }
+    footer a{
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+    footer a .logo-footer{
+        width: 7.5rem;
+    }
+    footer p{
+        text-decoration: none;
+        font-size: 1rem;
+        color:#364037
+    }
+    .social-media{
+        margin-right: 3.125rem;
+        padding-bottom: 3.125rem;
+    }
+    .social-media img{
+        width: 2rem;
+    }
+    .ig{
+        margin-right: .9375rem;
+    }
+    .solutions-footer{
+        line-height: 1.875rem;
+        margin-right: 1.25rem;
+    }
+    .guides-footer{
+        line-height: 1.875rem;
+        margin-right: .625rem;
+    }
+    .community-footer{
+        line-height: 1.875rem;
+}
+}
+
+
+@media(max-width: 320px){
+    footer{
+        padding-top: 2.5rem;
+        padding-left: 1.5625rem;
+    }
+    footer a{
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    footer a .logo-footer{
+        width: 6.25rem;
+        margin-bottom: 1.25rem;
+    }
+    footer p{
+        text-decoration: none;
+        font-size: .875rem;
+        color:#364037
+    }
+    .social-media{
+        margin-right: 1.5625rem;
+        padding-bottom: 3.125rem;
+    }
+    .social-media img{
+        width: 1.5625rem;
+    }
+    .ig{
+        margin-right: .9375rem;
+    }
+    .pagesFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .solutions-footer{
+        flex-wrap: wrap;
+        line-height: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .guides-footer{
+        flex-wrap: wrap;
+        line-height: 1.25rem;
+        margin-right: .625rem;
+        margin-bottom: 1.25rem;
+    }
+    .community-footer{
+        flex-wrap: wrap;
+        line-height: 1.25rem;
+}
 }
