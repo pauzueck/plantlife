@@ -391,7 +391,7 @@ header{
 }
 }
 
-@media(max-width: 320px){
+@media(max-width: 425px){
     .sectionOne{
         padding: 1.5625rem;
     }
@@ -477,7 +477,7 @@ header{
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
-    .solutionsHome {
+    .solutionsHome{
         display: flex;
         flex-direction: column;
         margin-top: 2.5rem;
@@ -741,7 +741,7 @@ footer p{
     top: 1.5625rem;
 }
 .search-bar input{
-    padding-left: 1.875rem;
+    padding-left: 1.5rem;
     color: #666666;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -754,6 +754,7 @@ footer p{
 }
 .search-bar input:focus{
     border: 5px solid #4B594D;
+    outline: none;
 }
 .sectionCommTwo{
     display: grid;
@@ -897,6 +898,9 @@ footer p{
     letter-spacing: .075rem;
     text-indent: 1.875rem;
     box-shadow: 0rem .25rem .25rem 0rem #898989;
+}
+.email-input:focus{
+    outline: none;
 }
 .sectionCommFour form{
     position: relative;
@@ -1089,7 +1093,7 @@ footer p{
 }
 }
 
-@media(max-width: 320px){
+@media(max-width: 425px){
     .welcomComm{
         display: flex;
         flex-direction: column;
@@ -1139,7 +1143,7 @@ footer p{
         left: 20px;
         top: 12px;
     }
-    .sectionCommTwo {
+    .sectionCommTwo{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 19.0625rem);
@@ -1153,8 +1157,12 @@ footer p{
     ;
     row-gap: 0;
     margin-top: 3.125rem;
-    padding-left: 1.25rem;    
-    padding-right: 1.25rem;
+    align-items: center;
+}
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .blog-card img{
     width: 16.875rem;
@@ -1177,6 +1185,8 @@ footer p{
 
 .sectionCommThree h2{
     padding-top: 4.375rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     font-size: 1.75rem;
     font-weight: 700;
     line-height: 1.875rem; 
@@ -1662,7 +1672,7 @@ footer p{
 }
 
 
-@media(max-width: 320px){
+@media(max-width: 425px){
     .sectionAboutOne{
         height: 17.4375rem;
         background-size: cover;
@@ -1877,7 +1887,7 @@ footer p{
 }
 
 
-@media(max-width: 320px){
+@media(max-width:  425px){
     footer{
         padding-top: 2.5rem;
         padding-left: 1.5625rem;
