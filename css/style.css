@@ -158,20 +158,32 @@ header{
     padding-left: 7.75rem;
     padding-right: 7.75rem;
 }
-.solutionsHome {
+.solutionsHome{
     margin-top: 5rem;
     margin-bottom: 5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style: none;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 2rem;
     color: #4B594D;
 }
+.capture-learn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25rem;
+}
+.set-nurture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25rem;
+}
 .descriptionSectionThree{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .sectionThree p{
@@ -245,54 +257,7 @@ header{
         line-height: 1.5625rem;
         letter-spacing: .05rem;
     }
-    .sectionTwo img{
-        width: 7.9375rem;
-        margin-top: 2.5rem;
-    }
-    .sectionTwo h2{
-        margin-top: 4.375rem;
-        margin-bottom: 1.875rem;
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 2.5rem;
-        letter-spacing: .075rem;
-    }
-    .sectionTwo h2 span{
-        font-weight: 500;
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 2.5rem;
-        letter-spacing: .075rem;
-    }
-    .sectionTwo p{
-        font-weight: 300;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.5625rem; /* 156.25% */
-        letter-spacing: .05rem;
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-        margin-bottom: 2.5rem;
-    }
-    .sectionFour h2{
-        font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3.75rem;
-    letter-spacing: .1437rem;
-    }
-    .leafOne{
-        width: 15.625rem;
-        height: 8.625rem;
-    }
-    .leafTwo{
-        width: 15.625rem;
-        height: 8.625rem;
-    }
-    sectionOne h1{
+.sectionOne h1{
     margin-bottom: 2.875rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -306,14 +271,6 @@ header{
     letter-spacing: .1875rem;
     font-size: 3.75rem;
     color: #6D8B74;
-}
-.sectionOne p{
-    width: 37.75rem;
-    font-family: 'Merriweather', serif;
-    font-weight: 300;
-    font-size: 1.25rem;
-    color: #4B594D;
-    letter-spacing: .125rem;
 }
 .sectionOne button{
     background-color: #6D8B74;
@@ -333,6 +290,53 @@ header{
     color: #FFFEFB;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
+}
+.sectionTwo img{
+    width: 7.9375rem;
+    margin-top: 2.5rem;
+}
+.sectionTwo h2{
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .075rem;
+}
+.sectionTwo h2 span{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .075rem;
+}
+.sectionTwo p{
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .05rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+.sectionFour h2{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: .1437rem;
+}
+.leafOne{
+    width: 15.625rem;
+    height: 8.625rem;
+}
+.leafTwo{
+    width: 15.625rem;
+    height: 8.625rem;
 }
 }
 
@@ -356,7 +360,8 @@ header{
         letter-spacing: .0875rem;
     }
     .sectionOne p{
-        width: 14.875rem;
+        width: 80%;
+        margin-left: 2rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 700;
@@ -429,6 +434,7 @@ header{
         margin-bottom: 2.5rem;
         font-weight: 500;
         font-size: 1.25rem;
+        padding-left: 0;
     }
     .descriptionSectionThree{
         display: flex;
